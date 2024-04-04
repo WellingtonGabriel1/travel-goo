@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
-
+    overflow-x: hidden;
 }
 
 nav {
@@ -53,6 +53,16 @@ h1 {
     font-style: normal;
 }
 
+h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin: 0px;
+    margin-top: 16px;
+    margin-bottom: 19px;
+}
+
 .root-container {
     display: flex;
     flex-direction: column;
@@ -71,6 +81,20 @@ h1 {
 
 .section-services {
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.section-best-services {
+    margin-top: 165px;
+    background-color: #ececec;
+    background-image: url(./img/world-map.png);
+}
+
+.section-popular-destinations {
+    display: flex;
 }
 
 .img-home {
@@ -81,6 +105,10 @@ h1 {
 .img-home-container {
     width: 100%;
     height: 100%;
+}
+
+.text-container {
+    height: 100vh;
 }
 
 .text-title {
@@ -159,4 +187,198 @@ h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 30px;
+    margin-top: 100px;
+}
+
+.box-services-container1 {
+    width: 346px;
+    height: 165px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 21px 21px 7px 18px;
+    margin-right: 90px;
+    margin-top: 25px;
+}
+
+.box-services-container2 {
+    width: 346px;
+    height: 165px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 21px 21px 15px 18px;
+    margin-top: 25px;
+}
+
+.box-services-container3 {
+    width: 346px;
+    height: 165px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 21px 21px 7px 18px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.box-services-container2 h4 {
+    margin: 0px 0px 20px 0px;
+}
+
+.descripition-subtitle-services {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+.tour-plan-title {
+    margin: 0px 0px 20px 0px;
+}
+
+.best-services-title1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.best-services-title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 5px 0px 0px 0px;
+}
+
+.descripition-subtitle-best-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.card-experience-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 130px 100px 100px 100px;
+}
+
+.card-experience-container p {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.numbers-card {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.group-cards-container {
+    display: flex;
+}
+
+.map-popular-destinations-container {
+    background-image: url(./img/world-map2.png);
+    width: 722px;
+    height: 772px;
+    margin-top: 65px;
+}
+
+.point-destination1 {
+    margin: 391px 0px 0px 381px;
+}
+
+.point-destination2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 79px 0px 0px 482px;
+}
+
+.point-destination3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 172px 0px 0px 690px;
+}
+
+.group-cards-destinations-container {
+    margin: 65px 0px 0px 255px;
+}
+
+.group-cards-destinations-container h5 {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.group-cards-destinations-container .subtitle1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 0px 0px 50px;
+}
+
+.group-cards-destinations-container .subtitle2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 0px 0px 40px;
+}
+
+.group-cards-destinations-container .subtitle3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px 0px 0px 21px;
+}
+
+.group-cards-destinations-container .arrow1 {
+    margin: 0px 0px 0px 49px;
+    cursor: pointer;
+}
+
+.group-cards-destinations-container .arrow2 {
+    margin: 0px 0px 0px 49px;
+    cursor: pointer;
+}
+
+.group-cards-destinations-container .arrow3 {
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+
+.card-popular-destinations-container {
+    display: flex;
+    align-items: center;
+    width: 659px;
+    height: 223px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: 30px;
 }
