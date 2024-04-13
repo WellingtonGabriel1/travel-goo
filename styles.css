@@ -97,6 +97,11 @@ h4 {
     display: flex;
 }
 
+.section-packages {
+    background-color: #ecf1f0;
+    margin-top: 33px;
+}
+
 .img-home {
     width: 100%;
     height: 100%;
@@ -242,7 +247,7 @@ h4 {
     justify-content: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 100px;
     margin-bottom: 0px;
 }
@@ -253,7 +258,7 @@ h4 {
     justify-content: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px 0px 0px 0px;
 }
 
@@ -381,4 +386,110 @@ h4 {
     border-radius: 15px;
     background-color: #ffffff;
     margin-top: 30px;
+}
+
+.best-packages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.buttons-categories-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.butn {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #808080;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.cards-packages-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 100px;
+}
+
+.card-packages {
+    width: 374px;
+    height: 459px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.images-locations{
+    width: 374px;
+    height: 305px;
+}
+
+.text-packages1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 0px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text-packages2 {
+    margin: 37px 0px 0px 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text-packages3 {
+    cursor: pointer;
+    margin: 41px 0px 0px 155px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#canada-card {
+    margin-left: 178px;
+}
+
+#japan-card {
+    margin-left: 196px;
+}
+
+#button-packages {
+    margin-top: 90px;
+}
+
+.descripition-cards {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px 0px 0px 10px;
+}
+
+.location-point-icon {
+    width: 20px;
+    height: 20px;
+    margin: 40px 0px 0px 0px;
+}
+
+.low-informations-container {
+    display: flex;
 }
