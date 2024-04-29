@@ -102,6 +102,26 @@ h4 {
     margin-top: 33px;
 }
 
+.people-say-section {
+    position: relative;
+    min-height: 750px;
+}
+
+.people-say-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ecf1f0;
+  z-index: -1;
+}
+
+.next-trip-section {
+   height: 100vh;
+}
+
 .img-home {
     width: 100%;
     height: 100%;
@@ -474,7 +494,8 @@ h4 {
 }
 
 #button-packages {
-    margin-top: 90px;
+    margin-top: 128px;
+    margin-bottom: 50px;
 }
 
 .descripition-cards {
@@ -492,4 +513,250 @@ h4 {
 
 .low-informations-container {
     display: flex;
+}
+
+.descripition-next-trips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px 0px 0px 0px;
+}
+
+.steps-group-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0px 0px 0px;
+    gap: 80px;
+}
+
+.steps-container1 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+
+.steps-container2 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+
+.steps-container3 {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.trips-destination {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #5e6282;
+    margin: 0px 0px 10px 8px;
+}
+
+.trips-destination-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5e6282;
+    margin: 0px 0px 0px 8px;
+}
+
+.trip-destination-container1 {
+    width: 323px;
+    height: 355px;
+    background-color: #ffffff;
+    padding: 12px 12px 12px 12px;
+    margin: 100px 0px 0px 378px;
+    border-color: #00a651;
+    border-style: solid;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.trip-destination-container1 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #84829a;
+}
+
+.trip-greece-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.trip-group-icons-container {
+    display: flex;
+    gap: 7px;
+}
+
+.trip-group-low-icons-container {
+    display: flex;
+    gap: 7px;
+}
+
+.peoples-going-greece {
+    margin: 30px 0px 0px 0px;
+}
+
+.icon-heart {
+    width: 18px;
+    height: 18px;
+    margin: 34px 0px 0px 130px;
+}
+
+.icon-building {
+    width: 18px;
+    height: 18px;
+    margin-top: 31px;
+}
+
+.mini-card-container1 {
+    display: flex;
+    align-items: center;
+    width: 263px;
+    height: 129px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    position: absolute;
+    margin: 315px 0px 0px 594px;
+    border-color: #8a79df;
+    border-style: solid;
+}
+
+.descripition-mini-card-container {
+    margin-left: 5px;
+}
+
+.span-trip {
+    color: #8a79df;
+}
+
+.ongoing-trip-home {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #84829a;
+    margin: 0px;
+}
+
+.descripition-porcents-complete {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #080809;
+    margin: 0px;
+}
+
+.mini-image {
+    margin-bottom: 70px;
+}
+
+.destination-image-card {
+    width: 321px;
+    height: 161px;
+    border-radius: 24px;
+}
+
+.mini-image-destination {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 70px;
+    border-radius: 50px;
+}
+
+.trip-destination-container2 {
+    width: 323px;
+    height: 355px;
+    background-color: #ffffff;
+    padding: 12px 12px 12px 12px;
+    margin: 100px 0px 0px 988px;
+    border-color: #00a651;
+    border-style: solid;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.trip-destination-container2 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #84829a;
+}
+
+.mini-card-container2 {
+    display: flex;
+    align-items: center;
+    width: 263px;
+    height: 129px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    position: absolute;
+    margin: 315px 0px 0px 1200px;
+    border-color: #8a79df;
+    border-style: solid;
+}
+
+.cards-container{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.people-say-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.box-opinion-container {
+    width: 738px;
+    height: 250px;
+    position: absolute;
+    background-color: #ffffff;
+    margin: 320px 0px 0px 570px;
+    z-index: 1;
+}
+
+.opinion-client-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    margin: 100px 0px 0px 20px;
+}
+
+.name-client {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    position: absolute;
+    margin: 210px 0px 0px 300px;
+}
+
+.background-image-opinion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 330px;
+    position: absolute;
+}
+
+.perfil-image-client {
+    position: absolute;
+    margin: 250px 0px 0px 860px;
+    z-index: 2;
 }
