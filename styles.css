@@ -63,6 +63,10 @@ h4 {
     margin-bottom: 19px;
 }
 
+footer {
+    display: flex;
+}
+
 .root-container {
     display: flex;
     flex-direction: column;
@@ -116,6 +120,12 @@ h4 {
   left: 0;
   background-color: #ecf1f0;
   z-index: -1;
+}
+
+.section-subscribe {
+    position: relative;
+    min-height: 590px;
+    background-color: #ffffff;
 }
 
 .next-trip-section {
@@ -759,4 +769,158 @@ h4 {
     position: absolute;
     margin: 250px 0px 0px 860px;
     z-index: 2;
+}
+
+.box-subscribe-container {
+    width: 1130px;
+    height: 387px;
+    background-color: #c9fcf2;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    margin: 90px 0px 0px 360px;
+}
+
+.subscribe-text1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: #5e6282;
+    margin: 50px 0px 0px 290px;
+    position: absolute;
+    
+}
+
+.subscribe-text2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: #5e6282;
+    margin: 90px 0px 0px 290px;
+    position: absolute;
+    
+}
+
+.input-button-group-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 250px;
+    margin-left: 280px;
+    position: absolute;
+}
+
+.input-subscribe {
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    background-color: white;
+    color: #39425d;
+    border: none;
+    padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5e6282;
+}
+
+.button-subscribe {
+    width: 180px;
+    height: 68px;
+    border-radius: 10px;
+    background-color: #00a651;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.decorative-icon {
+    position: absolute;
+    margin: 290px 0px 0px 1065px;
+}
+
+.subscribe-icon {
+    position: absolute;
+    margin: 0px 0px 300px 1090px;
+}
+
+.descripition-text-footer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #5e6282;
+}
+
+.logo-footer-container {
+    margin: 20px 0px 0px 150px;
+}
+
+.title-categories-footer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #080809
+}
+
+.contacts-container {
+    display: flex;
+    margin-left: 180px;
+    gap: 200px;
+    padding: 0px;
+}
+
+.contacts-container li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5e6282;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 27px;
+}
+
+.contacts-container ul {
+    padding: 0px;
+}
+
+.group-icons-social-container {
+    display: flex;
+    gap: 20px;
+}
+
+.icons-stores-container {
+    margin-left: 130px;
+}
+
+.icons-stores-container img {
+    cursor: pointer;
+}
+
+.discover-app-footer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5e6282;
+}
+
+.stores-icon-container {
+    display: flex;
+    gap: 15px;
+}
+
+.all-rights-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5e6282;
 }
