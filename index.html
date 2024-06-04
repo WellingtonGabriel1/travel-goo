@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="root-container">
-      <section class="section-home">
+      <section class="section-home" id="section-home">
         <div class="img-home-container">
           <nav>
             <img
@@ -16,9 +16,9 @@
               alt="Travel Goo Icon"
             />
             <div>
-              <a href="#home">Home</a>
-              <a href="#aboutus">About Us</a>
-              <a href="#contact">Packages</a>
+              <a onclick="onClickScrollTo('section-home')">Home</a>
+              <a onclick="onClickScrollTo('people-say-section')">About Us</a>
+              <a onclick="onClickScrollTo('section-packages')">Packages</a>
             </div>
             <div class="icons-container">
               <img src="./icons/favorite-icon.png" alt=" favorite-icon" />
@@ -37,7 +37,7 @@
               Your Satisfaction is our main priority
             </p>
             <button class="button-discover">
-              <a>Discover More</a>
+              <a href="./informations-travel/index.html">Discover More</a>
             </button>
           </div>
         </div>
@@ -154,6 +154,17 @@
               src="./icons/arrow-navigate.png"
               alt="arrow-navigate"
             />
+            <div class="destinations-modal-container1">
+              <h5>Thailand</h5>
+              <p class="descripition-packages-modal">
+                This is one of our most famous and sought-after packages by
+                travelers. The Thailand package offers several sightseeing
+                tours, extensive access to exclusive places and if you prefer,
+                you can book a vehicle to see it your way. Interested? Click the
+                button below and make your purchase!
+              </p>
+              <button class="button-purchase">Purchase</button>
+            </div>
           </div>
 
           <div class="card-popular-destinations-container">
@@ -165,6 +176,18 @@
               src="./icons/arrow-navigate.png"
               alt="arrow-navigate"
             />
+            <div class="destinations-modal-container2">
+              <h5>Indonesia</h5>
+              <p class="descripition-packages-modal">
+                This package is an excellent choice for those who want to
+                explore various places and local cultures. Indonesia boasts more
+                than 17,000 islands and a rich cultural diversity. There are
+                several tourist attractions, such as the Ubud Palace, which is
+                extremely famous for its art and landscapes. And there's much
+                more! Interested? Click the button below and make your purchase!
+              </p>
+              <button class="button-purchase">Purchase</button>
+            </div>
           </div>
 
           <div class="card-popular-destinations-container">
@@ -176,11 +199,25 @@
               src="./icons/arrow-navigate.png"
               alt="arrow-navigate"
             />
+            <div class="destinations-modal-container3">
+              <h5>New Zeland</h5>
+              <p class="descripition-packages-modal">
+                This package is an excellent choice for those who want to
+                explore unique landscapes in this world. New Zealand has a wide
+                variety of natural beauty, including mountains, volcanoes,
+                beaches, dunes, and much more! One example is Abel Tasman
+                National Park, which is extremely well-known for its golden
+                beaches, coastal trails, and lush forests, where hidden
+                waterfalls can be found during the hikes. Interested? Click the
+                button below and make your purchase!
+              </p>
+              <button class="button-purchase">Purchase</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section-packages">
+      <section class="section-packages" id="section-packages">
         <h2 class="best-packages">Best Packages For You</h2>
         <div class="buttons-categories-container">
           <button class="butn">Hot Deals</button>
@@ -394,7 +431,7 @@
           </div>
         </div>
       </section>
-      <section class="people-say-section">
+      <section class="people-say-section" id="people-say-section">
         <h2 class="people-say-title">What People Say About Us</h2>
         <img
           class="background-image-opinion"
