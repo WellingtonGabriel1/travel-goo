@@ -1,0 +1,2416 @@
+/* Estilos Nest Hub Max */
+@media screen and (max-width: 1280px) {
+    .nav-head {
+        max-width: 1280px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 500px;
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .button-discover {
+        margin: 70px 0px 0px 540px;
+    }
+
+    .card-experience-container {
+        margin: 130px 70px 100px 70px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 65px 0px 0px 5px;
+    }
+
+    .card-popular-destinations-container {
+        width: 550px;
+        height: 223px;
+    }
+
+    .destinations-modal-container3 {
+        margin: 0px 0px 235px 0px;
+    }
+
+    .next-trip-section {
+        height: 1000px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 118px;
+    }
+
+    .mini-card-container1 {
+        margin: 315px 0px 0px 274px;
+    }
+
+    .trip-destination-container2 {
+        margin: 100px 0px 0px 728px;
+    }
+
+    .mini-card-container2 {
+        margin: 315px 0px 0px 890px;
+    }
+
+    .background-image-opinion {
+        margin-left: 25px;
+    }
+
+    .box-opinion-container {
+        margin: 320px 0px 0px 270px;
+    }
+
+    .perfil-image-client {
+        margin: 250px 0px 0px 560px;
+    }
+
+    .box-subscribe-container {
+        margin: 90px 0px 0px 60px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 535px;
+    }
+}
+
+/* Estilos Ipad Pro */
+@media screen and (max-width: 1024px) {
+    h4 {
+        font-size: 27px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 374px;
+        white-space: nowrap;
+    }
+
+    .descripition-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .descripition-subtitle2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .button-discover {
+        width: 274px;
+        height: 80px;
+        border-radius: 10px;
+        margin: 170px 0px 0px 400px;
+    }
+
+    .button-discover a {
+        font-size: 27px;
+    }
+
+    .box-services-container1 {
+        height: 260px;
+        margin-right: 90px;
+        margin-top: 25px;
+    }
+    
+    .box-services-container2 {
+        height: 200px;
+        padding: 0px 21px 15px 18px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    .box-services-container2 h4 {
+        position: absolute;
+        margin: 55px 0px 0px 0px;
+    }
+
+    .image-hotel {
+        position: absolute;
+        margin: 0px 0px 35px 0px;
+    }
+
+    .descripition-hotel-services1 {
+        font-size: 23px;
+        margin-top: 100px;
+    }
+
+    .descripition-hotel-services2 {
+        font-size: 23px;
+        margin-top: 7px;
+    }
+
+    .box-services-container3 {
+        height: 260px;
+    }
+
+    .descripition-subtitle-services {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+
+    .best-services-title1 {
+        margin-top: 70px;
+        margin-bottom: 0px;
+        margin-left: 15px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .card-experience-container {
+        width: 270px;
+        height: 270px;
+        margin: 110px 50px 50px 50px;
+    }
+
+    .map-popular-destinations-container {
+        display: none;
+    }
+
+    .group-cards-destinations-container {
+        margin: 80px 0px 125px 245px;
+    }
+
+    .group-cards-destinations-container h5 {
+        font-size: 23px;
+    }
+
+    .group-cards-destinations-container .subtitle1 {
+        font-size: 21px;
+        margin: 0px 0px 15px 50px;
+    }
+    
+    .group-cards-destinations-container .subtitle2 {
+        font-size: 21px;
+        margin: 0px 0px 15px 40px;
+    }
+    
+    .group-cards-destinations-container .subtitle3 {
+        font-size: 21px;
+        margin: 0px 0px 15px 21px;
+    }
+
+    .destinations-modal-container1 {
+        height: 500px;
+    }
+
+    .destinations-modal-container2 {
+        height: 587px;
+    }
+    
+    .destinations-modal-container3 {
+        height: 667px;
+        margin-bottom: 50px;
+    }
+
+    .descripition-packages-modal {
+        font-size: 21px;
+    }
+
+    .buttons-categories-container {
+        gap: 15px;
+        margin-left: 0px;
+    }
+
+    .text-packages1 {
+        font-size: 22px;
+    }
+    
+    .text-packages2 {
+        margin: 34px 0px 0px 3px;
+        font-size: 21px;
+    }
+
+    .text-packages3 {
+        margin: 36px 0px 0px 175px;
+        font-size: 18px;
+    }
+
+    .descripition-cards {
+        font-size: 17px;
+        margin: 8px 0px 0px 7px;
+    }
+
+    .location-point-icon {
+        margin: 37px 0px 0px 0px;
+    }
+
+    .contact-cards {
+        margin: 0px 0px 17px 0px;
+    }
+
+    .trips-destination {
+        font-size: 18px;
+        margin: 0px 0px 7px 8px;
+    }
+
+    .steps-container1 {
+        margin-left: 10px;
+    }
+
+    .trips-destination-description {
+        font-size: 17px;
+        margin: 0px 0px 0px 8px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 30px;
+    }
+
+    .trip-greece-title {
+        font-size: 21px;
+        margin: 14px 0px 17px 0px;
+    }
+
+    .trip-destination-container1 p {
+        font-size: 18px;
+    }
+
+    .icon-building {
+        width: 23px;
+        height: 23px;
+        margin-top: 28px;
+    }
+
+    .peoples-going-greece {
+        margin: 27px 0px 0px 0px;
+    }
+    
+    .mini-card-container1 {
+        margin: 315px 0px 0px 245px;
+    }
+
+    .ongoing-trip-rome {
+        font-size: 18px;
+    }
+
+    .descripition-porcents-complete {
+        font-size: 18px;
+    }
+
+    .trip-destination-container2 {
+        margin: 100px 0px 0px 550px;
+    }
+
+    .trip-destination-container2 p {
+        font-size: 18px;
+    }
+
+    .mini-card-container2 {
+        margin: 317px 0px 0px 730px;
+    }
+
+    .background-image-opinion {
+        margin-left: 0px;
+        width: 1024px;
+        height: 536px;
+    }
+
+    .box-opinion-container {
+        margin: 320px 0px 0px 150px;
+    }
+
+    .opinion-client-text {
+        font-size: 20px;
+        margin: 100px 0px 0px 15px;
+    }
+
+    .name-client {
+        font-size: 21px;
+    }
+    
+    .perfil-image-client {
+        margin: 250px 0px 0px 440px;
+    }
+
+    .box-subscribe-container {
+        width: 1023px;
+        margin: 90px 0px 0px 0px;
+    }
+
+    .subscribe-text1 {
+        margin: 50px 0px 0px 240px;
+    }
+    
+    .subscribe-text2 {
+        margin: 90px 0px 0px 240px;
+    }
+
+    .input-button-group-container {
+        margin-left: 240px;
+    }
+
+    .input-subscribe {
+        font-size: 20px;
+    }
+
+    .button-subscribe {
+        font-size: 20px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 408px;
+    }
+
+    .descripition-text-footer {
+        font-size: 16px;
+    }
+
+}
+
+/* Estilos Nest Hub */
+@media screen and (width: 1024px) and (height: 600px) {
+    .nav-head {
+        max-width: 1024px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 360px;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .text-title {
+        font-size: 55px;
+        margin-top: 170px;
+        margin-left: 45px;
+    }
+
+    .text-title2 {
+        font-size: 55px;
+        margin-left: 45px;
+    }
+
+    .descripition-subtitle {
+        font-size: 18px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .descripition-subtitle2 {
+        font-size: 18px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .button-discover {
+        width: 195px;
+        height: 70px;
+        margin: 90px 0px 0px 420px;
+    }
+
+    .button-discover a {
+        font-size: 20px;
+    }
+
+    .destinations-modal-container3 {
+        margin-bottom: 120px;
+    }
+
+    .next-trip-section {
+        height: 950px;
+    }
+
+    .cards-container {
+        height: 900px;
+    }
+
+    .subscribe-icon {
+        margin: 0px 0px 300px 950px;
+    }
+
+    .decorative-icon {
+       display: none;
+    }
+
+}
+
+/* Estilos Surface Pro 7 */
+@media screen and (max-width: 912px) {
+    .nav-head {
+        max-width: 912px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 314px;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .button-discover {
+        margin: 170px 0px 0px 330px;
+    }
+
+    .card-experience-container {
+        margin: 110px 30px 50px 30px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 80px 0px 125px 215px;
+    }
+
+    .destinations-modal-container1 {
+        width: 430px;
+        height: 545px;
+    }
+
+    .destinations-modal-container2 {
+        width: 430px;
+        height: 615px;
+    }
+
+    .destinations-modal-container3 {
+        width: 425px;
+        height: 730px;
+        margin-bottom: 170px;
+    }
+
+    .descripition-packages-modal {
+        margin: 20px 0px 7px 45px;
+        font-size: 22px;
+    }
+
+    .button-purchase {
+        margin: 7px 0px 0px 35px;
+    }
+
+    .close-card1 {
+        margin: 15px 0px 0px 390px;
+    }
+
+    .close-card2 {
+        margin: 15px 0px 0px 390px;
+    }
+
+    .close-card3 {
+        margin: 15px 0px 0px 390px;
+    }
+
+    .destinations-modal-container1 h5 {
+        margin: 10px 30px 10px 165px;
+    }
+
+    .text-packages1 {
+        font-size: 24px;
+    }
+
+    .descripition-cards {
+        font-size: 20px;
+        margin: 8px 0px 0px 7px;
+    }
+
+    .card-packages {
+        height: 500px;
+    }
+
+    .trips-destination {
+        font-size: 20px;
+    }
+
+    .trips-destination-description {
+        font-size: 20px;
+    }
+
+    .next-trip-section {
+        height: 1483px;
+    }
+
+    .cards-container {
+        height: 1000px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 100px;
+    }
+
+    .trip-destination-container2 {
+        margin: 560px 0px 0px 400px;
+    }
+
+    .mini-card-container1 {
+        margin: 315px 0px 0px 275px;
+    }
+
+    .mini-card-container2 {
+        margin: 777px 0px 0px 580px;
+    }
+
+    .trip-greece-title {
+        font-size: 22px;
+    }
+
+    .ongoing-trip-rome {
+        font-size: 19px;
+    }
+
+    .trip-destination-container1 p {
+        font-size: 19px;
+    }
+
+    .background-image-opinion {
+        width: 912px;
+    }
+
+    .box-opinion-container {
+        width: 912px;
+        margin: 320px 0px 0px 0px;
+    }
+
+    .perfil-image-client {
+        margin: 250px 0px 0px 400px;
+    }
+
+    .opinion-client-text {
+        font-size: 24px;
+    }
+
+    .name-client {
+        font-size: 23px;
+        margin: 210px 0px 0px 405px;
+    }
+
+    .box-subscribe-container {
+        width: 912px;
+    }
+
+    .subscribe-text1 {
+        margin: 50px 0px 0px 200px;
+    }
+
+    .subscribe-text2 {
+        margin: 90px 0px 0px 200px;
+    }
+
+    .input-button-group-container {
+        margin-left: 200px;
+    }
+
+    .subscribe-icon {
+        margin: 0px 0px 300px 835px;
+    }
+
+    .decorative-icon {
+        display: none;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 358px;
+    }
+
+}
+
+/* Estilos Zenbook Fold */
+@media screen and (max-width: 853px) {
+    .nav-head {
+        max-width: 840px;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 290px;
+    }
+
+    .button-discover {
+        margin: 170px 0px 0px 300px;
+    }
+
+    .box-services-container1 {
+        height: 290px;
+    }
+
+    .box-services-container2 {
+        height: 290px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+
+    .card-popular-destinations-container {
+        width: 629px;
+    }
+
+    .background-image-opinion {
+        width: 853px;
+    }
+
+    .box-opinion-container {
+        width: 853px;
+    }
+
+    .opinion-client-text {
+        margin: 100px 0px 0px 30px;
+    }
+
+    .name-client {
+        margin: 210px 0px 0px 390px;
+    }
+
+    .box-subscribe-container {
+        width: 853px;
+    }
+
+    .subscribe-icon {
+        margin: 0px 0px 300px 780px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 324px;
+    }
+
+}
+
+/* Estilos Ipad Air */
+@media screen and (max-width: 820px) {
+    .nav-head .group-navigation-head {
+        margin-left: 274px;
+    }
+
+    .button-discover {
+        margin: 170px 0px 0px 285px;
+    }
+
+    .box-services-container1 {
+        height: 300px;
+    }
+
+    .box-services-container2 {
+        height: 240px;
+    }
+
+    .box-services-container3 {
+        height: 300px;
+    }
+
+    .card-experience-container {
+        margin: 110px 30px 50px 30px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 80px 0px 125px 165px;
+    }
+
+    .next-trip-section {
+        height: 1500px;
+    }
+
+    .cards-container {
+        height: 1000px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 110px;
+    }
+
+    .mini-card-container1 {
+        margin: 315px 0px 0px 295px;
+    }
+
+    .trip-destination-container2 {
+        margin: 550px 0px 0px 230px;
+    }
+
+    .mini-card-container2 {
+        margin: 770px 0px 0px 420px;
+    }
+
+    .background-image-opinion {
+        width: 820px;
+    }
+
+    .box-opinion-container {
+        width: 820px;
+        margin: 320px 0px 0px 0px;
+    }
+
+    .perfil-image-client {
+        margin: 250px 0px 0px 345px;
+    }
+
+    .opinion-client-text {
+        margin: 100px 0px 0px 20px;
+    }
+
+    .name-client {
+        margin: 210px 0px 0px 350px;
+    }
+
+    .box-subscribe-container {
+        width: 820px;
+    }
+
+    .subscribe-text1 {
+        margin: 50px 0px 0px 180px;
+    }
+
+    .subscribe-text2 {
+        margin: 90px 0px 0px 180px;
+    }
+
+    .input-button-group-container {
+        margin-left: 180px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 308px;
+    }
+
+}
+
+/* Estilos Ipad Mini */
+@media screen and (max-width: 768px) {
+    .nav-head {
+        max-width: 768px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 237px;
+        margin-top: 20px;
+    }
+
+    .nav-head img {
+        display: none;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .text-title {
+        font-size: 65px;
+        margin-left: 25px;
+    }
+    
+    .text-title2 {
+        font-size: 65px;
+        margin-left: 25px;
+    }
+
+    .button-discover {
+        margin: 130px 0px 0px 252px;
+    }
+    
+    .box-services-container1 {
+        height: 335px;
+    }
+    
+    .box-services-container2 {
+        height: 265px;
+    }
+    
+    .box-services-container3 {
+        height: 335px;
+    }
+
+    .card-experience-container {
+        width: 270px;
+        height: 270px;
+        margin: 110px 20px 50px 20px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 80px 0px 125px 140px;
+    }
+
+    .card-popular-destinations-container {
+        width: 610px;
+    }
+
+    .destinations-modal-container1 {
+       margin: 40px 0px 0px 60px;
+    }
+
+    .destinations-modal-container2 {
+        margin: 40px 0px 0px 60px;
+    }
+
+    .destinations-modal-container3 {
+        margin: 0px 0px 50px 60px;
+    }
+
+    .steps-group-container {
+        margin: 90px 0px 0px 0px;
+        gap: 45px;
+    }
+
+    .cards-container {
+        height: 1100px;
+    }
+
+    .next-trip-section {
+        height: 1600px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 190px;
+    }
+
+    .mini-card-container1 {
+        margin: 315px 0px 0px 368px;
+    }
+
+    .trip-destination-container2 {
+        margin: 600px 0px 0px 190px;
+    }
+
+    .mini-card-container2 {
+        margin: 820px 0px 0px 368px;
+    }
+
+    .background-image-opinion {
+        max-width: 768px;
+    }
+
+    .box-opinion-container {
+        width: 768px;
+        margin: 320px 0px 0px 0px;
+    }
+
+    .perfil-image-client {
+        margin: 250px 0px 0px 300px;
+    }
+
+    .opinion-client-text {
+        margin: 100px 0px 0px 22px;
+    }
+
+    .box-subscribe-container {
+        max-width: 768px;
+        margin: 90px 0px 0px 0px;
+    }
+
+    .subscribe-text1 {
+        margin: 50px 0px 0px 140px;
+    }
+
+    .subscribe-text2 {
+        margin: 90px 0px 0px 140px;
+    }
+
+    .input-button-group-container {
+        margin-left: 120px;
+    }
+
+    .subscribe-icon {
+        margin: 0px 0px 0px 698px;
+    }
+
+    .decorative-icon {
+        display: none;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 278px;
+    }
+
+    
+    
+    
+}
+
+/* Estilos Surface Duo */
+@media screen and (max-width: 540px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .nav-head {
+        max-width: 540px;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 127px;
+        margin-top: 20px;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .text-title {
+        font-size: 45px;
+    }
+
+    .text-title2 {
+        font-size: 45px;
+    }
+
+    .descripition-subtitle {
+        font-size: 15px;
+    }
+
+    .descripition-subtitle2 {
+        font-size: 15px;
+    }
+
+    .button-discover {
+        width: 228px;
+        height: 60px;
+        margin: 110px 0px 0px 162px;
+    }
+
+    .button-discover a {
+        font-size: 20px;
+    }
+
+    .box-services-container1 {
+        margin: 80px 0px 0px 0px;
+        height: 200px;
+    }
+
+    .box-services-container2 {
+        margin: 80px 0px 0px 0px;
+        height: 200px;
+    }
+
+    .box-services-container3 {
+        margin: 80px 0px 0px 0px;
+        height: 200px;
+    }
+
+    .descripition-subtitle-services {
+        font-size: 16px;
+    }
+
+    .descripition-hotel-services1 {
+        font-size: 16px;
+    }
+
+    .descripition-hotel-services2 {
+        font-size: 16px;
+        margin: 2px 0px 0px 0px;
+    }
+
+    .best-services-title1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .best-services-title2 {
+        font-size: 30px;
+        margin: 5px 5px 0px 0px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    .card-experience-container {
+        width: 270px;
+        height: 270px;
+        margin: 110px 10px 50px 10px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 80px 0px 125px 85px;
+    }
+
+    .card-popular-destinations-container {
+        width: 370px;
+    }
+
+    .group-cards-destinations-container h5 {
+        position: absolute;
+        margin: 0px 0px 125px 255px;
+    }
+
+    .group-cards-destinations-container .subtitle1 {
+        position: absolute;
+        margin: 0px 0px 5px 255px;
+    }
+
+    .group-cards-destinations-container .subtitle2 {
+        position: absolute;
+        margin: 0px 0px 5px 255px;
+    }
+
+    .group-cards-destinations-container .subtitle3 {
+        position: absolute;
+        margin: 0px 0px 5px 255px;
+    }
+
+    .group-cards-destinations-container .arrow1 {
+        position: absolute;
+        margin: 150px 0px 0px 280px;
+    }
+
+    .group-cards-destinations-container .arrow2 {
+        position: absolute;
+        margin: 150px 0px 0px 280px;
+    }
+
+    .group-cards-destinations-container .arrow3 {
+        position: absolute;
+        margin: 150px 0px 0px 280px;
+    }
+
+    .destinations-modal-container1 {
+        margin: 100px 60px 0px 0px;
+        z-index: 1;
+    }
+    
+    .destinations-modal-container2 {
+        margin: 40px 0px 0px 0px;
+        z-index: 2;
+    }
+
+    .destinations-modal-container3 {
+        margin: 0px 0px 180px 0px;
+    }
+
+    .destinations-modal-container1 h5 {
+        margin: 10px 30px 10px 165px;
+    }
+    
+    .destinations-modal-container2 h5 {
+        font-size: 23px;
+        margin: 10px 30px 10px 165px;
+    }
+
+    .destinations-modal-container3 h5 {
+        font-size: 23px;
+        margin: 10px 30px 10px 165px;
+    }
+
+    .descripition-packages-modal {
+        margin: 50px 0px 7px 45px;
+    }
+
+    .buttons-categories-container {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .best-packages {
+        font-size: 30px;
+    }
+
+    .steps-group-container {
+        display: block;
+        margin: 90px 0px 0px 10px;
+    }
+
+    .steps-container1 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .steps-container2 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .steps-container3 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .trips-destination {
+        font-size: 19px;
+    }
+
+    .trips-destination-description {
+        font-size: 18px;
+    }
+
+    .trip-destination-container1 {
+        margin: 100px 0px 0px 40px;
+    }
+
+    .trip-destination-container2 {
+        margin: 600px 0px 0px 70px;
+    }
+
+    .mini-card-container1 {
+        margin: 315px 0px 0px 222px;
+    }
+
+    .mini-card-container2 {
+        margin: 820px 0px 0px 250px;
+    }
+
+    .people-say-title {
+        font-size: 35px;
+    }
+
+    .background-image-opinion {
+        max-width: 540px;
+    }
+
+    .box-opinion-container {
+        width: 540px;
+    }
+
+    .opinion-client-text {
+        font-size: 20px;
+        margin: 50px 0px 0px 22px;
+    }
+
+    .perfil-image-client {
+        margin: 220px 0px 0px 210px;
+    }
+
+    .name-client {
+        font-size: 19px;
+        margin: 210px 0px 0px 210px;
+    }
+
+    .box-subscribe-container {
+        max-width: 540px;
+        margin: 90px 0px 0px 0px;
+    }
+
+    .subscribe-text1 {
+        font-size: 25px;
+        margin: 50px 0px 0px 80px;
+    }
+
+    .subscribe-text2 {
+        font-size: 25px;
+        margin: 90px 0px 0px 80px;
+    }
+
+    .input-button-group-container {
+        margin-left: 30px;
+    }
+
+    .input-subscribe {
+        width: 300px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .subscribe-icon {
+        margin: 350px 0px 0px 468px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 165px;
+    }
+}
+
+/* Estilos Iphone 14 Pro Max */
+@media screen and (max-width: 430px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .nav-head {
+        width: 100vw;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 54px;
+        white-space: nowrap;
+    }
+
+    .text-title {
+        font-size: 35px;
+        margin: 0px;
+        margin-top: 270px;
+        margin-left: 35px;
+        margin-right: 30px;
+        color: #ffffff;
+    }
+
+    .text-title2 {
+        font-size: 35px;
+        margin: 0px;
+        margin-left: 5px;
+        color: #ffffff;
+    }
+
+    .descripition-subtitle {
+        display: none;
+    }
+    
+    .descripition-subtitle2 {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 25px 0px 0px 0px;
+    }
+
+    .button-discover {
+        margin: 100px 0px 0px 100px;
+    }
+
+    .our-services-title {
+        margin-top: 70px;
+    }
+
+    .section-services {
+        display: block;
+    }
+
+    .box-services-container1 {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    
+    .box-services-container2 {
+        margin-left: 10px;
+    }
+
+    .box-services-container3 {
+        margin-left: 10px;
+    }
+
+    .best-services-title1 {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-right: 15px;
+    }
+
+    .best-services-title2 {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .image-hotel {
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .box-services-container2 h4 {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .descripition-hotel-services1 {
+        font-size: 16px;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 13px;
+        white-space: nowrap;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .card-experience-container {
+        max-width: 180px;
+        max-height: 205px;
+        margin: 0px;
+    }
+
+    .group-cards-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 15px;
+        margin-right: 10px;
+        margin-left: 17px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .map-popular-destinations-container {
+        display: none;
+    }
+
+    .group-cards-destinations-container {
+        margin: 65px 0px 0px 12px;
+    }
+
+    .group-cards-destinations-container h5 {
+        position: absolute;
+        margin: 60px 0px 0px 240px;
+        z-index: 1;
+    }
+
+    .card-popular-destinations-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 396px;
+    }
+
+    .group-cards-destinations-container .subtitle1 {
+        position: absolute;
+        margin: 110px 0px 0px 240px;
+    }
+    
+    .group-cards-destinations-container .subtitle2 {
+        position: absolute;
+        margin: 110px 0px 0px 240px;
+    }
+
+    .group-cards-destinations-container .subtitle3 {
+        position: absolute;
+        margin: 110px 0px 0px 240px;
+    }
+
+    .group-cards-destinations-container .arrow1 {
+        margin: 85px 0px 0px 130px;
+        cursor: pointer;
+    }
+    
+    .group-cards-destinations-container .arrow2 {
+        margin: 85px 0px 0px 130px;
+        cursor: pointer;
+    }
+
+    .group-cards-destinations-container .arrow3 {
+        margin: 85px 0px 0px 130px;
+        cursor: pointer;
+    }
+
+    .destinations-modal-container1 {
+        max-width: 390px;
+        display: none;
+        z-index: 4;
+    }
+
+    .destinations-modal-container2 {
+        max-width: 390px;
+        z-index: 5;
+    }
+    
+    .destinations-modal-container3 {
+        max-width: 390px;
+        z-index: 6;
+    }
+
+    .destinations-modal-container1 h5 {
+        margin: 10px 30px 10px 145px;
+    }
+
+    .destinations-modal-container2 h5 {
+        margin: 10px 30px 10px 145px;
+    }
+    
+    .destinations-modal-container3 h5 {
+        margin: 5px 30px 5px 145px;
+    }
+
+    .descripition-packages-modal {
+        margin: 50px 0px 7px 20px;
+    }
+
+    .button-purchase {
+        margin: 7px 0px 0px 20px;
+    }
+
+    .best-packages {
+        font-size: 35px;
+    }
+
+    .buttons-categories-container {
+        display: block;
+        margin-left: 35px;
+    }
+
+    .cards-packages-container {
+        display: none;
+        max-width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        margin: 75px 0px 50px 20px;
+    }
+
+    .card-packages {
+        margin-bottom: 30px;
+    }
+
+    .best-packages {
+        font-size: 22px;
+    }
+
+    .descripition-next-trips {
+        font-size: 19px;
+    }
+    
+    .steps-group-container {
+        display: block;
+        margin: 90px 0px 0px 0px;
+    }
+
+    .steps-container1 {
+        max-width: 400px;
+        overflow-wrap: break-word;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .steps-container2 {
+        max-width: 400px;
+        overflow-wrap: break-word;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    
+    .steps-container3 {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .next-trip-section {
+        height: 1500px;
+    }
+
+    .trips-destination {
+        width: 328px;
+    }
+
+    .trips-destination-description {
+        width: 328px;
+    }
+
+    .cards-container{
+        height: 940px;
+    }
+
+    .trip-destination-container1 {
+        margin: 70px 0px 0px 8px;
+    }
+
+    .mini-card-container1 {
+        width: 254px;
+        margin: 286px 0px 0px 141px;
+    }
+
+    .trip-destination-container2 {
+        margin: 500px 0px 0px 8px;
+    }
+
+    .mini-card-container2 {
+        width: 254px;
+        margin: 718px 0px 0px 141px;
+    }
+
+    .people-say-title {
+        font-size: 28px;
+    }
+
+    .nav-head .icons-container {
+        display: none;
+    }
+
+    .background-image-opinion {
+        display: none;
+    }
+
+    .box-opinion-container {
+        width: 400px;
+        height: 250px;
+        margin: 130px 0px 0px 7px;
+        overflow-wrap: break-word;
+    }
+
+    .opinion-client-text {
+        margin: 50px 0px 0px 20px;
+    }
+
+    .name-client {
+        font-size: 18px;
+        margin: 190px 0px 0px 140px;
+    }
+
+    .perfil-image-client {
+        margin: 20px 0px 0px 135px;
+    }
+
+    .people-say-section {
+        min-height: 600px;
+        width: 412px;
+    }
+
+    .box-subscribe-container {
+        width: 97%;
+        height: 387px;
+        margin: 90px 0px 0px 5px;
+    }
+
+    .subscribe-text1 {
+        font-size: 20px;
+        margin: 50px 0px 0px 50px;
+    }
+    
+    .subscribe-text2 {
+        font-size: 20px;
+        margin: 80px 0px 0px 50px;
+    }
+
+    .input-button-group-container {
+        display: block;
+        margin-top: 230px;
+        margin-left: 50px;
+    }
+
+    .input-subscribe {
+        width: 300px;
+        height: 58px;
+    }
+    
+    .button-subscribe {
+        width: 150px;
+        height: 58px;
+        margin: 15px 0px 0px 75px;
+    }
+
+    .decorative-icon {
+        display: none;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 102px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 335px;
+    }
+}
+
+/* Estilos Pixel 7 */
+@media screen and (max-width: 412px) {
+    .image-hotel {
+        position: relative;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .box-services-container2 h4 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .descripition-hotel-services1 {
+        font-size: 16px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .cards-packages-container {
+        margin: 75px 0px 50px 0px;
+    }
+
+    .steps-container1 {
+        max-width: 390px;
+    }
+
+    .steps-container2 {
+        max-width: 390px;
+    }
+    
+    .steps-container3 {
+        max-width: 390px;
+    }
+
+    .trips-destination {
+        width: 308px;
+    }
+
+    .trips-destination-description {
+        width: 308px;
+    }
+
+    .people-say-section {
+        width: 410px;
+    }
+
+    .box-opinion-container {
+        margin: 130px 0px 0px 6px;
+    }
+
+    .name-client {
+        font-size: 17px;
+        margin: 220px 0px 0px 140px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 328px;
+    }
+}
+
+/* Estilos Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .section-home {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-head {
+        max-width: 390px;
+    }
+
+    .box-services-container1 {
+        width: 332px;
+    }
+
+    .box-services-container2 {
+        width: 332px;
+    }
+    
+    .box-services-container3 {
+        width: 332px;
+    }
+
+    .best-services-title1 {
+        font-size: 27px;
+    }
+    
+    .best-services-title2 {
+        font-size: 27px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 12px;
+    }
+
+    .group-cards-container {
+        margin-left: 8px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 65px 0px 0px 5px;
+    }
+
+    .card-popular-destinations-container {
+        width: 385px;
+    }
+
+    .destinations-modal-container1 {
+        width: 375px;
+        height: 425px;
+        margin: 0px 0px 0px 3px;
+    }
+    
+    .destinations-modal-container2 {
+        width: 375px;
+        height: 480px;
+        margin: 0px 0px 0px 3px;
+    }
+    
+    .destinations-modal-container3 {
+        width: 375px;
+        height: 545px;
+        margin: 0px 0px 0px 3px;
+    }
+
+    .descripition-packages-modal {
+        margin: 50px 0px 7px 15px;
+    }
+    
+    .button-purchase {
+        margin: 7px 0px 0px 15px;
+    }
+
+    .close-card1 {
+        margin: 15px 0px 0px 355px;
+    }
+
+    .close-card2 {
+        margin: 15px 0px 0px 355px;
+    }
+    
+    .close-card3 {
+        margin: 15px 0px 0px 352px;
+    }
+
+    .buttons-categories-container {
+        margin-left: 25px;
+    }
+
+    .cards-packages-container {
+        margin: 75px 0px 50px 2px;
+    }
+
+    .steps-container1 {
+        width: 375px;
+        margin: 0px 0px 15px 2px;
+    }
+    
+    .steps-container2 {
+        width: 375px;
+        margin: 0px 0px 15px 2px;
+    }
+    
+    .steps-container3 {
+        width: 375px;
+        margin: 0px 0px 15px 2px;
+    }
+
+    .trips-destination {
+        width: 306px;
+    }
+    
+    .trips-destination-description {
+        width: 310px;
+    }
+
+    .mini-card-container1 {
+        width: 235px;
+        margin: 286px 0px 0px 141px;
+    }
+
+    .mini-card-container2 {
+        width: 235px;
+        margin: 718px 0px 0px 141px;
+    }
+
+    .people-say-title {
+        font-size: 25px;
+    }
+
+    .people-say-section {
+        width: 390px;
+    }
+
+    .box-opinion-container {
+        width: 390px;
+        margin: 130px 0px 0px 0px;
+    }
+
+    .name-client {
+        margin: 210px 0px 0px 140px;
+    }
+
+    .subscribe-text1 {
+        font-size: 19px;
+    }
+
+    .subscribe-text2 {
+        font-size: 19px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 310px;
+    }
+    
+}
+
+/* Estilos IPhone SE */
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-head .group-navigation-head {
+        margin-left: 35px;
+    }
+
+    .text-title {
+        font-size: 30px;
+        margin-left: 45px;
+    }
+    
+    .text-title2 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .button-discover {
+        margin: 70px 0px 0px 85px;
+    }
+
+    .box-services-container1 {
+        width: 316px;
+    }
+    
+    .box-services-container2 {
+        width: 316px;
+    }
+    
+    .box-services-container3 {
+        width: 316px;
+        margin-left: 10px;
+    }
+
+    .descripition-subtitle-services {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .best-services-title1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    
+    .best-services-title2 {
+        font-size: 25px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+
+    .card-experience-container {
+        max-width: 160px;
+        max-height: 195px;
+    }
+
+    .group-cards-container {
+        margin-right: 5px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .card-popular-destinations-container {
+        max-width: 372px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 65px 0px 0px 4px;
+    }
+
+    .group-cards-destinations-container h5 {
+        margin: 45px 0px 0px 240px;
+    }
+
+    .group-cards-destinations-container .subtitle1 {
+        margin: 95px 0px 0px 240px;
+    }
+
+    .group-cards-destinations-container .arrow1 {
+        position: absolute;
+        margin: 185px 0px 0px 265px;
+    }
+
+    .group-cards-destinations-container .arrow2 {
+        position: absolute;
+        margin: 185px 0px 0px 265px;
+    }
+
+    .group-cards-destinations-container .arrow3 {
+        position: absolute;
+        margin: 185px 0px 0px 265px;
+    }
+
+    .destinations-modal-container1 h5 {
+        margin: 10px 30px 10px 145px;
+    }
+
+    .destinations-modal-container2 h5 {
+        margin: 10px 30px 10px 145px;
+    }
+    
+    .destinations-modal-container3 h5 {
+        margin: 5px 30px 5px 130px;
+    }
+
+    .destinations-modal-container1 {
+        max-width: 360px;
+        max-height: 390px;
+        margin-left: 5px;
+    }
+
+    .destinations-modal-container2 {
+        max-width: 360px;
+        max-height: 470px;
+        margin-left: 5px;
+    }
+    
+    .destinations-modal-container3 {
+        max-width: 360px;
+        max-height: 515px;
+        margin-left: 5px;
+    }
+
+    .descripition-packages-modal {
+        margin: 50px 0px 7px 8px;
+        font-size: 17px;
+    }
+
+    .button-purchase {
+        margin: 7px 0px 0px 5px;
+    }
+
+    .close-card1 {
+        margin: 15px 0px 0px 337px;
+    }
+
+    .close-card2 {
+        margin: 15px 0px 0px 337px;
+    }
+
+    .close-card3 {
+        margin: 15px 0px 0px 337px;
+    }
+
+    .buttons-categories-container {
+        margin-left: 107px;
+    }
+
+    .cards-packages-container {
+        margin: 65px 0px 50px 0px;
+    }
+
+    .best-packages {
+        font-size: 20px;
+    }
+
+    .steps-container1 {
+        max-width: 372px;
+        margin-left: 2px;
+    }
+
+    .steps-container2 {
+        max-width: 372px;
+        margin-left: 2px;
+    }
+    
+    .steps-container3 {
+        max-width: 372px;
+        margin-left: 2px;
+    }
+
+    .trips-destination-description {
+        width: 298px;
+    }
+
+    .trips-destination {
+        width: 298px;
+    }
+
+    .trip-destination-container1 {
+        margin: 70px 0px 0px 2px;
+    }
+
+    .mini-card-container1 {
+        width: 224px;
+    }
+
+    .trip-destination-container2 {
+        margin: 500px 0px 0px 2px;
+    }
+
+    .mini-card-container2 {
+        width: 224px;
+    }
+
+    .people-say-title {
+        font-size: 25px;
+    }
+
+    .people-say-section {
+        min-height: 600px;
+        width: 374px;
+    }
+
+    .box-opinion-container {
+        width: 374px;
+        margin: 130px 0px 0px 0px;
+    }
+
+    .perfil-image-client {
+        margin: 20px 0px 0px 130px;
+    }
+
+    .name-client {
+        font-size: 18px;
+        margin: 210px 0px 0px 135px;
+    }
+
+    .subscribe-text1 {
+        font-size: 18px;
+    }
+    
+    .subscribe-text2 {
+        font-size: 18px;
+    }
+
+    .input-button-group-container {
+        margin-left: 40px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 295px;
+    }
+}
+
+/* Estilos Galaxy S8+ */
+@media screen and (max-width: 360px) {
+    .box-services-container1 {
+        width: 302px;
+    } 
+
+    .box-services-container2 {
+        width: 302px;
+    }
+    .box-services-container3 {
+        width: 302px;
+    }
+
+    .descripition-subtitle-best-services {
+        font-size: 11px;
+    }
+
+    .group-cards-container {
+        margin-left: 10px;
+    }
+
+    .card-popular-destinations-container {
+        max-width: 352px;
+    }
+
+    .destinations-modal-container1 {
+        max-width: 350px;
+        max-height: 360px;
+        margin-left: 0px;
+    }
+
+    .destinations-modal-container2 {
+        max-width: 350px;
+        max-height: 390px;
+        margin-left: 0px;
+    }
+
+    .destinations-modal-container3 {
+        max-width: 350px;
+        max-height: 450px;
+        margin-left: 0px;
+    }
+
+    .descripition-packages-modal {
+        max-width: 340px;
+        font-size: 15px;
+    }
+
+    .button-purchase {
+        max-width: 338px;
+        margin: 7px 0px 0px 5px;
+    }
+
+    .close-card1 {
+        margin: 15px 0px 0px 330px;
+    }
+
+    .close-card2 {
+        margin: 15px 0px 0px 330px;
+    }
+
+    .close-card3 {
+        margin: 15px 0px 0px 330px;
+    }
+
+    .buttons-categories-container {
+        margin-left: 100px;
+    }
+
+    .images-locations {
+        width: 355px;
+        height: 305px;
+    }
+
+    .card-packages {
+        width: 355px;
+        margin-bottom: 30px;
+    }
+
+    .steps-container1 {
+        max-width: 355px;
+        margin-left: 2px;
+    }
+
+    .steps-container2 {
+        max-width: 355px;
+        margin-left: 2px;
+    }
+
+    .steps-container3 {
+        max-width: 355px;
+        margin-left: 2px;
+    }
+
+    .trips-destination {
+        width: 265px;
+    }
+
+    .trips-destination-description {
+        width: 265px;
+    }
+
+    .mini-card-container1 {
+        width: 224px;
+        margin-left: 127px;
+    }
+
+    .mini-card-container2 {
+        width: 224px;
+        margin-left: 127px;
+    }
+
+    .people-say-section {
+        min-height: 600px;
+        width: 360px;
+    }
+
+    .box-opinion-container {
+        width: 360px;
+    }
+
+    .opinion-client-text {
+        margin: 50px 0px 0px 8px;
+    }
+
+    .perfil-image-client {
+        margin: 20px 0px 0px 110px;
+    }
+
+    .subscribe-text1 {
+        font-size: 17px;
+    }
+
+    .subscribe-text2 {
+        font-size: 17px;
+    }
+
+    .input-button-group-container {
+        margin-left: 35px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 280px;
+    }
+}
+
+/* Estilos Galaxy Z Fold 5 */
+@media screen and (max-width: 344px) {
+    progress {
+        width: 140px;
+    }
+
+    .button-discover {
+        margin: 70px 0px 0px 60px;
+    }
+
+    .box-services-container1 {
+        width: 282px;
+        height: 168px;
+    }
+
+    .box-services-container2 {
+        width: 282px;
+        height: 168px;
+    }
+
+    .box-services-container3 {
+        width: 282px;
+        height: 168px;
+    }
+
+    .descripition-subtitle-services {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .image-hotel {
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .box-services-container2 h4 {
+        position: absolute;
+        margin: 16px 0px 0px 0px;
+    }
+
+    .descripition-hotel-services1 {
+        font-size: 16px;
+        margin-top: 55px;
+    }
+
+    .group-cards-container {
+        margin-left: 4px;
+    }
+
+    .group-cards-destinations-container {
+        margin: 65px 0px 0px 2px;
+    }
+
+    .card-popular-destinations-container {
+        max-width: 342px;
+    }
+
+    .group-cards-destinations-container h5 {
+        margin: 45px 0px 0px 232px;
+    }
+
+    .group-cards-destinations-container .subtitle1 {
+        margin: 95px 0px 0px 232px;
+    }
+
+    .group-cards-destinations-container .subtitle2 {
+        margin: 110px 0px 0px 232px;
+    }
+
+    .group-cards-destinations-container .subtitle3 {
+        margin: 110px 0px 0px 232px;
+    }
+
+    .destinations-modal-container1 h5 {
+        margin: 10px 30px 10px 125px;
+    }
+
+    .destinations-modal-container2 h5 {
+        margin: 10px 30px 10px 125px;
+    }
+
+    .destinations-modal-container3 h5 {
+        margin: 5px 30px 5px 120px;
+    }
+
+    .destinations-modal-container1 {
+        max-width: 340px;
+    }
+
+    .destinations-modal-container2 {
+        max-width: 340px;
+    }
+
+    .destinations-modal-container2 button {
+        margin-top: 0px;
+    }
+
+    .destinations-modal-container3 {
+        max-width: 340px;
+    }
+
+    .button-purchase {
+        max-width: 330px;
+    }
+
+    .close-card1 {
+        margin: 15px 0px 0px 315px;
+    }
+
+    .close-card2 {
+        margin: 15px 0px 0px 315px;
+    }
+
+    .close-card3 {
+        margin: 15px 0px 0px 315px;
+    }
+
+    .descripition-packages-modal {
+        max-width: 330px;
+    }
+
+    .buttons-categories-container {
+        margin-left: 90px;
+    }
+
+    .card-packages {
+        width: 342px;
+    }
+
+    .images-locations {
+        width: 342px;
+    }
+
+    .text-packages1 {
+        font-size: 20px;
+    }
+
+    .text-packages3 {
+        margin: 36px 0px 0px 155px;
+    }
+
+    .descripition-cards {
+        font-size: 19px;
+    }
+
+    #japan-card {
+        margin-left: 196px;
+    }
+
+    #canada-card {
+        margin-left: 178px;
+    }
+
+    .best-packages {
+        font-size: 19px;
+    }
+
+    .steps-container1 {
+        max-width: 342px;
+    }
+
+    .steps-container2 {
+        max-width: 342px;
+    }
+
+    .steps-container3 {
+        max-width: 342px;
+    }
+
+    .trip-destination-container1 {
+        padding: 10px 5px 10px 5px; 
+    }
+
+    .trip-destination-container2 {
+        padding: 10px 5px 10px 5px; 
+    }
+
+    .mini-card-container1 {
+        width: 208px;
+        height: 137px;
+    }
+
+    .mini-card-container2 {
+        width: 208px;
+        height: 137px;
+    }
+
+    .mini-card-container2 h4 {
+        margin: 0px;
+    }
+
+    .people-say-section {
+        width: 344px;
+    }
+
+    .box-opinion-container {
+        width: 344px;
+    }
+
+    .opinion-client-text {
+        font-size: 18px;
+    }
+
+    .name-client {
+        font-size: 17px;
+        margin: 210px 0px 0px 120px;
+    }
+
+    .subscribe-text1 {
+        font-size: 16px;
+    }
+
+    .subscribe-text2 {
+        font-size: 16px;
+    }
+
+    .input-button-group-container {
+        margin-left: 15px;
+    }
+
+    .subscribe-icon {
+        margin: 344px 0px 0px 265px;
+    }
+
+    .logo-footer-container {
+        margin: 20px 0px 0px 68px;
+    }
+
+
+}

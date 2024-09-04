@@ -2,27 +2,20 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Goo</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
     <div class="root-container">
       <section class="section-home" id="section-home">
         <div class="img-home-container">
-          <nav>
-            <img
-              class="travel-goo-icon"
-              src="./icons/travelIcon.png"
-              alt="Travel Goo Icon"
-            />
-            <div>
+          <nav class="nav-head">
+            <div class="group-navigation-head">
               <a onclick="onClickScrollTo('section-home')">Home</a>
               <a onclick="onClickScrollTo('people-say-section')">About Us</a>
               <a onclick="onClickScrollTo('section-packages')">Packages</a>
-            </div>
-            <div class="icons-container">
-              <img src="./icons/favorite-icon.png" alt=" favorite-icon" />
-              <img src="./icons/profile-icon.png" alt=" profile-icon" />
             </div>
           </nav>
           <div class="text-container">
@@ -51,17 +44,21 @@
             We book all kind of national or international
           </p>
           <p class="descripition-subtitle-services">
-            ticket for your destinaion.
+            ticket for your destination.
           </p>
         </div>
 
         <div class="box-services-container2">
-          <img src="./icons/hotel-icon.png" alt="hotel-icon" />
+          <img
+            class="image-hotel"
+            src="./icons/hotel-icon.png"
+            alt="hotel-icon"
+          />
           <h4>Hotel Booking</h4>
-          <p class="descripition-subtitle-services">
+          <p class="descripition-hotel-services1">
             You can easily book your according to your
           </p>
-          <p class="descripition-subtitle-services">
+          <p class="descripition-hotel-services2">
             budget hotel by our website.
           </p>
         </div>
@@ -155,15 +152,18 @@
               alt="arrow-navigate"
             />
             <div class="destinations-modal-container1">
+              <h1 class="close-card1">X</h1>
               <h5>Thailand</h5>
               <p class="descripition-packages-modal">
                 This is one of our most famous and sought-after packages by
                 travelers. The Thailand package offers several sightseeing
                 tours, extensive access to exclusive places and if you prefer,
-                you can book a vehicle to see it your way. Interested? Click the
-                button below and make your purchase!
+                you can book a vehicle to see it your way. Interested? Click on
+                the button below and talk to us to make your reservation!
               </p>
-              <button class="button-purchase">Purchase</button>
+              <button class="button-purchase">
+                <a href="(44)91111-1111">Contact</a>
+              </button>
             </div>
           </div>
 
@@ -177,6 +177,7 @@
               alt="arrow-navigate"
             />
             <div class="destinations-modal-container2">
+              <h1 class="close-card2">X</h1>
               <h5>Indonesia</h5>
               <p class="descripition-packages-modal">
                 This package is an excellent choice for those who want to
@@ -184,9 +185,12 @@
                 than 17,000 islands and a rich cultural diversity. There are
                 several tourist attractions, such as the Ubud Palace, which is
                 extremely famous for its art and landscapes. And there's much
-                more! Interested? Click the button below and make your purchase!
+                more! Interested? Click on the button below and talk to us to
+                make your reservation!
               </p>
-              <button class="button-purchase">Purchase</button>
+              <button class="button-purchase">
+                <a href="(44)91111-1111">Contact</a>
+              </button>
             </div>
           </div>
 
@@ -200,6 +204,7 @@
               alt="arrow-navigate"
             />
             <div class="destinations-modal-container3">
+              <h1 class="close-card3">X</h1>
               <h5>New Zeland</h5>
               <p class="descripition-packages-modal">
                 This package is an excellent choice for those who want to
@@ -208,10 +213,12 @@
                 beaches, dunes, and much more! One example is Abel Tasman
                 National Park, which is extremely well-known for its golden
                 beaches, coastal trails, and lush forests, where hidden
-                waterfalls can be found during the hikes. Interested? Click the
-                button below and make your purchase!
+                waterfalls can be found during the hikes. Interested? Click on
+                the button below and talk to us to make your reservation!
               </p>
-              <button class="button-purchase">Purchase</button>
+              <button class="button-purchase">
+                <a href="(44)91111-1111">Contact</a>
+              </button>
             </div>
           </div>
         </div>
@@ -220,12 +227,14 @@
       <section class="section-packages" id="section-packages">
         <h2 class="best-packages">Best Packages For You</h2>
         <div class="buttons-categories-container">
-          <button class="butn">Hot Deals</button>
-          <button class="butn">Backpack</button>
-          <button class="butn">South Asia</button>
-          <button class="butn">Honeymoon</button>
-          <button class="butn">Europe</button>
-          <button class="butn">More</button>
+          <button class="butn" onClick="showHotDeals(), showPackages()">
+            Hot Deals
+          </button>
+          <button class="butn" onClick="showOtherPackages()">Backpack</button>
+          <button class="butn" onClick="showOtherPackages()">South Asia</button>
+          <button class="butn" onClick="showOtherPackages()">Honeymoon</button>
+          <button class="butn" onClick="showOtherPackages()">Europe</button>
+          <button class="butn" onClick="showOtherPackages()">More</button>
         </div>
         <div class="cards-packages-container">
           <div class="card-packages">
@@ -246,7 +255,12 @@
                 alt="icon-location-point"
               />
               <h5 class="text-packages2">Indonesia</h5>
-              <h5 class="text-packages3">Know More</h5>
+              <h5
+                title="Contact us to make the reservation."
+                class="text-packages3"
+              >
+                <a class="contact-cards" href="(44)91111-1111">Contact</a>
+              </h5>
             </div>
           </div>
 
@@ -269,7 +283,13 @@
                   alt="icon-location-point"
                 />
                 <h5 class="text-packages2">Japan</h5>
-                <h5 id="japan-card" class="text-packages3">Know More</h5>
+                <h5
+                  id="japan-card"
+                  title="Contact us to make the reservation."
+                  class="text-packages3"
+                >
+                  <a class="contact-cards" href="(44)91111-1111">Contact</a>
+                </h5>
               </div>
             </div>
           </div>
@@ -292,14 +312,17 @@
                   alt="icon-location-point"
                 />
                 <h5 class="text-packages2">Canada</h5>
-                <h5 id="canada-card" class="text-packages3">Know More</h5>
+                <h5
+                  id="canada-card"
+                  title="Contact us to make the reservation."
+                  class="text-packages3"
+                >
+                  <a class="contact-cards" href="(44)91111-1111">Contact</a>
+                </h5>
               </div>
             </div>
           </div>
         </div>
-        <button id="button-packages" class="button-discover">
-          <a>Discover More</a>
-        </button>
       </section>
       <section class="next-trip-section">
         <h2 class="best-packages">Book Your Next Trip in 3 Easy Steps</h2>
@@ -347,9 +370,21 @@
             <h4 class="trip-greece-title">Trip To Greece</h4>
             <p>14-29 June| by Robbin Johanson</p>
             <div class="trip-group-icons-container">
-              <img src="./icons/leaf-icon.png" alt="leaf-icon" />
-              <img src="./icons/map-icon.png" alt="map-icon" />
-              <img src="./icons/send-icon.png" alt="send-icon" />
+              <img
+                title="Includes forests"
+                src="./icons/leaf-icon.png"
+                alt="leaf-icon"
+              />
+              <img
+                title="Includes tours"
+                src="./icons/map-icon.png"
+                alt="map-icon"
+              />
+              <img
+                title="Includes tour to other places"
+                src="./icons/send-icon.png"
+                alt="send-icon"
+              />
             </div>
             <div class="trip-group-low-icons-container">
               <img
@@ -358,11 +393,6 @@
                 alt="building-icon"
               />
               <p class="peoples-going-greece">24 people going</p>
-              <img
-                class="icon-heart"
-                src="./icons/favorite-heart-icon.png"
-                alt="favorite-heart-icon"
-              />
             </div>
           </div>
           <div class="mini-card-container1">
@@ -372,15 +402,12 @@
               alt="rome-image"
             />
             <div class="descripition-mini-card-container">
-              <p class="ongoing-trip-home">Ongoing</p>
+              <p class="ongoing-trip-rome">Ongoing</p>
               <h4 class="trip-greece-title">Trip to Rome</h4>
               <p class="descripition-porcents-complete">
                 <span class="span-trip">40%</span> completed
               </p>
-              <img
-                src="./img/bar-complete-image.png"
-                alt="bar-complete-image"
-              />
+              <progress id="progress" max="100" value="40">40%</progress>
             </div>
           </div>
 
@@ -393,9 +420,21 @@
             <h4 class="trip-greece-title">Trip To Switzerland</h4>
             <p>17-31 March| by Jonah Jill</p>
             <div class="trip-group-icons-container">
-              <img src="./icons/leaf-icon.png" alt="leaf-icon" />
-              <img src="./icons/map-icon.png" alt="map-icon" />
-              <img src="./icons/send-icon.png" alt="send-icon" />
+              <img
+                title="Includes forests"
+                src="./icons/leaf-icon.png"
+                alt="leaf-icon"
+              />
+              <img
+                title="Includes tours"
+                src="./icons/map-icon.png"
+                alt="map-icon"
+              />
+              <img
+                title="Includes tour to other places"
+                src="./icons/send-icon.png"
+                alt="send-icon"
+              />
             </div>
             <div class="trip-group-low-icons-container">
               <img
@@ -404,11 +443,6 @@
                 alt="building-icon"
               />
               <p class="peoples-going-greece">41 people going</p>
-              <img
-                class="icon-heart"
-                src="./icons/favorite-heart-icon.png"
-                alt="favorite-heart-icon"
-              />
             </div>
           </div>
           <div class="mini-card-container2">
@@ -418,15 +452,12 @@
               alt="bora-bora-image"
             />
             <div class="descripition-mini-card-container">
-              <p class="ongoing-trip-home">Ongoing</p>
+              <p class="ongoing-trip-rome">Ongoing</p>
               <h4 class="trip-greece-title">Trip to Bora Bora</h4>
               <p class="descripition-porcents-complete">
                 <span class="span-trip">40%</span> completed
               </p>
-              <img
-                src="./img/bar-complete-image.png"
-                alt="bar-complete-image"
-              />
+              <progress id="progress" max="100" value="40">40%</progress>
             </div>
           </div>
         </div>
@@ -483,46 +514,6 @@
             Book your trip in minute, get full <br />
             Control for much longer.
           </p>
-        </div>
-        <div class="contacts-container">
-          <div>
-            <h3 class="title-categories-footer">Company</h3>
-            <ul>
-              <li>About</li>
-              <li>Careers</li>
-              <li>Mobile</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="title-categories-footer">Contact</h3>
-            <ul>
-              <li>Help/FAQ</li>
-              <li>Press</li>
-              <li>Affilates</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="title-categories-footer">More</h3>
-            <ul>
-              <li>Airlinefees</li>
-              <li>Airline</li>
-              <li>Low fare tips</li>
-            </ul>
-          </div>
-        </div>
-        <div class="icons-stores-container">
-          <div class="group-icons-social-container">
-            <img src="./icons/facebook-icon.png" alt="facebook-icon" />
-            <img src="./icons/instagram-icon.png" alt="instagram-icon" />
-            <img src="./icons/twitter-icon.png" alt="twitter-icon" />
-          </div>
-          <p class="discover-app-footer">Discover our app</p>
-          <div class="stores-icon-container">
-            <img src="./icons/play-icon.png" alt="play-icon" />
-            <img src="./icons/apple-icon.png" alt="apple-icon" />
-          </div>
         </div>
       </footer>
       <p class="all-rights-footer">All rights reserved@travelgoo.co</p>

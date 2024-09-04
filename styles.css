@@ -6,9 +6,10 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y:visible(hidden);
 }
 
-nav {
+.nav-head {
     display: flex;
     align-items: center;
     position: fixed;
@@ -21,35 +22,26 @@ nav {
     z-index: 3;
 }
 
-nav .icons-container {
+.nav-head .icons-container {
     margin-top: 7px;
     margin-left: 522px;
-    
 }
 
-nav img {
+.nav-head img {
     padding: 14px 16px;
 }
 
-nav div {
+.nav-head .group-navigation-head {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 677px;
+    margin-left: 797px;
     margin-top: 10px;
 }
 
-nav a {
+.nav-head a {
     color: #808080;
     padding: 14px 16px;
-    cursor: pointer;
-}
-
-nav .travel-goo-icon{
-    width: 76px;
-    height: 60px;
-    margin-top: 30px;
-    margin-left: 30px;
     cursor: pointer;
 }
 
@@ -265,7 +257,29 @@ footer {
     margin: 0px 0px 20px 0px;
 }
 
+.image-hotel {
+    margin: 0px;
+}
+
 .descripition-subtitle-services {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+.descripition-hotel-services1 {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+.descripition-hotel-services2 {
     color: #000000;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -287,6 +301,7 @@ footer {
     font-size: 40px;
     margin-top: 100px;
     margin-bottom: 0px;
+    margin-left: 15px;
 }
 
 .best-services-title2 {
@@ -440,6 +455,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 72px;
+    margin-bottom: 100px;
 }
 
 .butn {
@@ -457,11 +473,12 @@ footer {
 }
 
 .cards-packages-container {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 75px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card-packages {
@@ -495,23 +512,18 @@ footer {
 
 .text-packages3 {
     cursor: pointer;
-    margin: 41px 0px 0px 155px;
+    margin: 41px 0px 0px 175px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 17px;
 }
 
 #canada-card {
-    margin-left: 178px;
+    margin-left: 195px;
 }
 
 #japan-card {
-    margin-left: 196px;
-}
-
-#button-packages {
-    margin-top: 128px;
-    margin-bottom: 50px;
+    margin-left: 212px;
 }
 
 .descripition-cards {
@@ -529,6 +541,10 @@ footer {
 
 .low-informations-container {
     display: flex;
+}
+
+.contact-cards {
+    margin: 0px;
 }
 
 .descripition-next-trips {
@@ -622,12 +638,6 @@ footer {
     margin: 30px 0px 0px 0px;
 }
 
-.icon-heart {
-    width: 18px;
-    height: 18px;
-    margin: 34px 0px 0px 130px;
-}
-
 .icon-building {
     width: 18px;
     height: 18px;
@@ -655,7 +665,7 @@ footer {
     color: #8a79df;
 }
 
-.ongoing-trip-home {
+.ongoing-trip-rome {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -764,9 +774,6 @@ footer {
 }
 
 .background-image-opinion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-left: 330px;
     position: absolute;
 }
@@ -864,7 +871,7 @@ footer {
 }
 
 .logo-footer-container {
-    margin: 20px 0px 0px 150px;
+    margin: 20px 0px 0px 855px;
 }
 
 .title-categories-footer {
@@ -962,21 +969,21 @@ footer {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20px;
-    margin: 30px 30px 30px 145px;
+    margin: 10px 30px 10px 145px;
 }
 
 .destinations-modal-container2 h5 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20px;
-    margin: 30px 30px 30px 145px;
+    margin: 10px 30px 10px 145px;
 }
 
 .destinations-modal-container3 h5 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20px;
-    margin: 25px 30px 25px 145px;
+    margin: 5px 30px 5px 145px;
 }
 
 .destinations-modal-container2 button {
@@ -990,7 +997,7 @@ footer {
     color: #000000;
     width: 350px;
     max-width: 350px;
-    margin: 20px 0px 18px 25px;
+    margin: 20px 0px 7px 25px;
 }
 
 .button-purchase {
@@ -1004,5 +1011,33 @@ footer {
     color: white;
     border: none;
     cursor: pointer;
-    margin: 30px 0px 0px 25px;
+    margin: 7px 0px 0px 25px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.close-card1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px 0px 0px 365px;
+    cursor: pointer;
+}
+
+.close-card2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px 0px 0px 365px;
+    cursor: pointer;
+}
+
+.close-card3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px 0px 0px 365px;
+    cursor: pointer;
 }
